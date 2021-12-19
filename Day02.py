@@ -4,8 +4,8 @@ import os
 def split_int(input_list):
     return [int(char) for char in input_list]
 
-#Reading the puzzle text file from your Windows Desktop folder
-with open(os.environ['USERPROFILE'] + r'\Desktop\Advent of Code\2015\input02.txt', 'r') as f:
+#Reading the puzzle text file (named as input02.txt) from your Windows Desktop folder
+with open(os.environ['USERPROFILE'] + r'\Desktop\input02.txt', 'r') as f:
     data = [split_int(line.strip().split('x')) for line in f.readlines()]
 
 def get_paper_feet(l, w, h):
