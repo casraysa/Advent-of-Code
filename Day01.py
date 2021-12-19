@@ -2,8 +2,8 @@
 import os
 from collections import Counter
 
-#Reading the puzzle text file from your Windows Desktop folder
-with open(os.environ['USERPROFILE'] + r'\Desktop\Advent of Code\2015\input01.txt', 'r') as f:
+#Reading the puzzle text file (named as input01.txt) from your Windows Desktop folder
+with open(os.environ['USERPROFILE'] + r'\Desktop\input01.txt', 'r') as f:
     data = [line for line in f.read()]
 
 #First part
