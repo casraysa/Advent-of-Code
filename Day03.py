@@ -1,8 +1,8 @@
 #Advent of Code 2015 - Day 3
 import os
 
-#Reading the puzzle text file from your Windows Desktop folder
-with open(os.environ['USERPROFILE'] + r'\Desktop\Advent of Code\2015\input03.txt', 'r') as f:
+#Reading the puzzle text file (named as input03.txt) from your Windows Desktop folder
+with open(os.environ['USERPROFILE'] + r'\Desktop\input03.txt', 'r') as f:
     data = f.read()
 
 def get_position(i, j, k):
